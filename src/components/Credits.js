@@ -33,7 +33,7 @@ const addCredit = (re) => {
       <ul style={{listStyle: 'none', paddingLeft: 0, textalign: 'center'}}>
         {credits.map((credit) => (
         <li key={credit.id}>
-          <div className='credit-item'>
+          <div className='credits'>
             <p>Description: {credit.description}</p>
             <p>Amount:${parseFloat(credit.amount).toFixed(2)}</p>
             <p>Date:{new Date(credit.date).toISOString().split('T')[0]}</p>
