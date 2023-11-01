@@ -29,18 +29,18 @@ const addCredit = (re) => {
 
  return (
     <div style={{textAlign: 'center'}}>
-      <h1> Credits </h1>
+      <h1>Credits</h1>
       <ul style={{listStyle: 'none', paddingLeft: 0, textalign: 'center'}}>
         {credits.map((credit) => (
         <li key={credit.id}>
-          <div className='credits'>
-            <p>Description:{credit.description}</p>
-            <p>Amount: ${parseFloat(credit.amount).toFixed(2)}</p>
-            <p>Date: {new Date(credit.date).toISOString().split('T')[0]}</p>
+          <div className='credit-item'>
+            <p>Description: {credit.description}</p>
+            <p>Amount:${parseFloat(credit.amount).toFixed(2)}</p>
+            <p>Date:{new Date(credit.date).toISOString().split('T')[0]}</p>
           </div>
         </li>
-        }
-      </ul> 
+        ))}
+      </ul>
       <br/>
       <AccountBalance accountBalance={balance}/>
       <div className='credit-addition'>
