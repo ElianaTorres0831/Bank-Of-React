@@ -14,7 +14,7 @@ const Debits = (props) => {
   let DebitsView = () => {
     const { debits, balance, updatedDebit, updateBalance } = props;
     const [description, setDescription] = useState('');
-    const [amount] = useState('');
+    const [amount, setAmt] = useState('');
     
       const addDebit = (re) => 
       {
