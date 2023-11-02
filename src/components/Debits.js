@@ -13,8 +13,8 @@ const Debits = (props) => {
   // Create the list of Debit items
   let debitsView = () => {
     const { debits, balance, updatedDebit, updateBalance } = props;
-    const [description, setDescription ] = useState('');
-    const [amount, setAmt] = useState('');
+    const [description] = useState('');
+    const [amount] = useState('');
     
       const addDebit = (re) => 
       {
