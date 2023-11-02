@@ -21,7 +21,7 @@ input {
 
 button {
     padding: 10px 15px;
-    background-color: #be718b;
+    background-color: #a885e9;
     color: #ffeff4;
     border: none;
     border-radius: 5px;
@@ -30,5 +30,5 @@ button {
 }
 
 button:hover {
-    background-color: #555;
+    background-color: transparent;
 }
