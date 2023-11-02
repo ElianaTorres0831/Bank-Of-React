@@ -5,7 +5,7 @@ The Debits component contains information for Debits page view.
 Note: You need to work on this file for the Assignment.
 ==================================================*/
 import {Link} from 'react-router-dom';
-import "../css/Debit.css"
+import "../css/debits.css"
 import React, { useState } from "react";
 import AccountBalance from './AccountBalance';
 
