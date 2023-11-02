@@ -5,7 +5,7 @@ The Debits component contains information for Debits page view.
 Note: You need to work on this file for the Assignment.
 ==================================================*/
 import {Link} from 'react-router-dom';
-import "../css/debits.css"
+import "../css/Debit.css"
 import React, { useState } from "react";
 import AccountBalance from './AccountBalance';
 
@@ -51,7 +51,6 @@ const Debits = (props) => {
       ))}
 
       </ul>
-      {DebitsView()}
       <br/>
         <AccountBalance accountBalance = {balance}/>
       <br/> 
