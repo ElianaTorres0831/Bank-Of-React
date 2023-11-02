@@ -11,11 +11,10 @@ import AccountBalance from './AccountBalance';
 
 const Debits = (props) => {
   // Create the list of Debit items
-  let DebitsView = () => {
     const { debits, balance, updatedDebit, updateBalance } = props;
     const [description, setDescription] = useState('');
     const [amount, setAmt] = useState('');
-    
+  let DebitsView = () => {
       const addDebit = (re) => 
       {
         re.preventDefault()
