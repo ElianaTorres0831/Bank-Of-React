@@ -35,7 +35,7 @@ const Debits = (props) => {
   }
   // Render the list of Debit items and a form to input new Debit item
   return (
-    <div stle = {{textAlign: 'center'}}>
+    <div style = {{textAlign: 'center'}}>
       <h1>Debits</h1>
       <ul style={{listStyle: 'none', paddingLeft: 0, textalign: 'center'}}>
 
