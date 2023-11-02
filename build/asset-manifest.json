@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Bank-Of-React/static/css/main.a6b42a1e.css",
-    "main.js": "/Bank-Of-React/static/js/main.6cebe664.js",
+    "main.js": "/Bank-Of-React/static/js/main.2087eba8.js",
     "static/js/787.6058ec00.chunk.js": "/Bank-Of-React/static/js/787.6058ec00.chunk.js",
     "index.html": "/Bank-Of-React/index.html",
     "main.a6b42a1e.css.map": "/Bank-Of-React/static/css/main.a6b42a1e.css.map",
-    "main.6cebe664.js.map": "/Bank-Of-React/static/js/main.6cebe664.js.map",
+    "main.2087eba8.js.map": "/Bank-Of-React/static/js/main.2087eba8.js.map",
     "787.6058ec00.chunk.js.map": "/Bank-Of-React/static/js/787.6058ec00.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a6b42a1e.css",
-    "static/js/main.6cebe664.js"
+    "static/js/main.2087eba8.js"
   ]
 }
